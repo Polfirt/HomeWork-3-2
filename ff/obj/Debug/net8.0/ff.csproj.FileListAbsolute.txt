@@ -1,0 +1,14 @@
+C:\Users\Ivanr\source\repos\ff\ff\bin\Debug\net8.0\ff.exe
+C:\Users\Ivanr\source\repos\ff\ff\bin\Debug\net8.0\ff.deps.json
+C:\Users\Ivanr\source\repos\ff\ff\bin\Debug\net8.0\ff.runtimeconfig.json
+C:\Users\Ivanr\source\repos\ff\ff\bin\Debug\net8.0\ff.dll
+C:\Users\Ivanr\source\repos\ff\ff\bin\Debug\net8.0\ff.pdb
+C:\Users\Ivanr\source\repos\ff\ff\obj\Debug\net8.0\ff.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ivanr\source\repos\ff\ff\obj\Debug\net8.0\ff.AssemblyInfoInputs.cache
+C:\Users\Ivanr\source\repos\ff\ff\obj\Debug\net8.0\ff.AssemblyInfo.cs
+C:\Users\Ivanr\source\repos\ff\ff\obj\Debug\net8.0\ff.csproj.CoreCompileInputs.cache
+C:\Users\Ivanr\source\repos\ff\ff\obj\Debug\net8.0\ff.dll
+C:\Users\Ivanr\source\repos\ff\ff\obj\Debug\net8.0\refint\ff.dll
+C:\Users\Ivanr\source\repos\ff\ff\obj\Debug\net8.0\ff.pdb
+C:\Users\Ivanr\source\repos\ff\ff\obj\Debug\net8.0\ff.genruntimeconfig.cache
+C:\Users\Ivanr\source\repos\ff\ff\obj\Debug\net8.0\ref\ff.dll
