@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ff
 {
-    public sealed class MultiDimensionalArray : Array
+    public sealed class MultiDimensionalArray : ArrayBase
     {
         private int[,] array;
 
@@ -19,16 +19,21 @@ namespace ff
             }
             else
             {
-                Random rnd = new Random();
-                for (int i = 0; i < rows; i++)
+                RandomInitialize();
+            }
+        }
+        public override void RandomInitialize()
+        {
+            Random rnd = new Random();
+            for (int i = 0; i < array.GetLength(0); i++)
+            {
+                for (int j = 0; j < array.GetLength(1); j++)
                 {
-                    for (int j = 0; j < columns; j++)
-                    {
-                        array[i, j] = rnd.Next(1, 101);
-                    }
+                    array[i, j] = rnd.Next(1, 101);
                 }
             }
         }
+
 
         public override void Initialize()
         {

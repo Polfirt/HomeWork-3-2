@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace ff
 {
-    public sealed class JaggedArray : Array
+    public sealed class JaggedArray : ArrayBase
     {
         private int[][] array;
 
@@ -27,13 +28,17 @@ namespace ff
 
             else
             {
-                Random rnd = new Random();
-                for (int i = 0; i < array.Length; i++)
+                RandomInitialize();
+            }
+        }
+        public override void RandomInitialize()
+        {
+            Random rnd = new Random();
+            for (int i = 0; i < array.Length; i++)
+            {
+                for (int j = 0; j < array[i].Length; j++)
                 {
-                    for (int j = 0; j < array[i].Length; j++)
-                    {
-                        array[i][j] = rnd.Next(1, 101);
-                    }
+                    array[i][j] = rnd.Next(1, 101);
                 }
             }
         }

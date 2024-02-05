@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace ff
 {
-    public sealed class OneDimensionalArray : Array
+    public sealed class OneDimensionalArray : ArrayBase
     {
         private int[] array;
 
@@ -19,11 +20,15 @@ namespace ff
             }
             else
             {
-                Random rnd = new Random();
-                for (int i = 0; i < size; i++)
-                {
-                    array[i] = rnd.Next(1, 101);
-                }
+                RandomInitialize();
+            }
+        }
+        public override void RandomInitialize()
+        {
+            Random rnd = new Random();
+            for (int i = 0; i < array.Length; i++)
+            {
+                array[i] = rnd.Next(1, 101);
             }
         }
 

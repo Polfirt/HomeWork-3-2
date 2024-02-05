@@ -8,7 +8,7 @@ namespace ff
     {
         static void Main()
         {
-            Array[] arrays = new Array[3];
+            ArrayBase[] arrays = new ArrayBase[3];
 
             Console.WriteLine("Если хотите ввести все сами, введите 'true', если же нет, то пишите 'false'.");
             bool v = bool.Parse(Console.ReadLine());
